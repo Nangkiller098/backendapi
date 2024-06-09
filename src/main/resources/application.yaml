@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/db-development
+    url: jdbc:postgresql://localhost:5432/school-cms
     username: postgres
     password: 123
     driver-class-name: org.postgresql.Driver
@@ -28,7 +28,6 @@ application:
         expiration: 604800000 # 7 days
   upload:
     client:
-      path: C:\Users\V.I.P/Downloads/uploads/
+      path: /Users/hengsomnang/Documents/School-CMS/backendapi/Images
     server:
       path: /home/sochoeun/uploads/
-
